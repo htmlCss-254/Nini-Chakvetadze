@@ -1,1 +1,234 @@
+
+ body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url('image3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 100px;
+ }
+  
+ nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    text-align: right;
     padding: 27px;
+}
+nav a{
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    background: black;
+    border-radius: 5px;
+}
+
+#text1{
+    text-align: center;
+    border: #333;
+    color: aliceblue;
+    border-style: dashed;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+table{
+    width: 400px;
+    margin: 30px;
+    border-collapse: collapse;
+    
+}
+table th{
+
+    background-color: #511717;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+table td{
+    padding: 18px;
+    border-bottom: 10px solid  #511717;
+    color: aliceblue;
+    text-align: center;
+}
+
+.table1{
+    border: solid #333;
+    border-style: dashed;
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 20px;
+}
+.table2{
+    border: solid #333;
+    border-style: dashed;
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+}
+tr:hover{
+    background: #511212;
+    cursor: pointer;
+}
+td:hover{
+    background:rgb(110, 25, 25);
+    color:#000000;
+    font-weight: bold;
+}
+
+.social{
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    width: 220px;
+}
+.social a{
+    display: flex;
+    width: 50px;
+    height: 25px;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    overflow: hidden;
+}
+.social a:hover{
+    width: 180px;
+}
+.social span:first-child{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.social span:last-child{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.facebook{
+    background:#3b5998;
+} 
+.twitter{
+    background:#55acee;
+}
+.instagram{
+    background:#e1306c;
+}
+.linkedin{
+    background:#0077b5;
+}
+.github{
+    background:#333;
+}
+.youtube{
+    background:#ff0000;
+}
+
+.comment{ 
+    width: 100%;
+    max-width: 500%;
+    background-color: #333;
+    border:solid#333 2px;
+    border-radius: 8px;
+    padding: 20px;
+    color: aliceblue;
+    box-shadow:0 4px 8px;
+    resize: none;
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+.buttons{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+.footer{
+    background-color: #333;
+    color: aliceblue;
+    padding: 60px  20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1700px;
+}
+   .collumn{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color: aliceblue;
+}
+.links{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.links a{
+    color: #ccc;
+    
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.newsletter input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  outline: none;
+}
+.newsletter button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 25px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px; 
+  cursor: pointer;
+  
+}
+.newsletter button:hover {
+  background-color: #ffffff;
+  color: #33363b;
+}
+
+
+
+
+
+
+
+
